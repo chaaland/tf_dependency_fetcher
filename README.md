@@ -1,1 +1,2 @@
 # tf_dependency_fetcher
+A small script for best effort downloading of TF dependencies. The motivating use case is having to build TensorFlow on a computer with strict firewall permissioning where downloads must all be done manually and take many minutes. Collating as many of the downloads in one place as possible so they can be brought in with a single download will make things much easier.
