@@ -2,10 +2,10 @@
 import argparse
 import hashlib
 from pathlib import Path
-from tqdm import tqdm
 
 import re
 import requests
+from tqdm import tqdm
 
 
 class TensorflowRepo:
